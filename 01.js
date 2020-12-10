@@ -1,7 +1,7 @@
 const app = new Vue({
     el: '#app',
     data: {
-        titulo: 'hola desde Vue',
+        titulo: 'Hola desde Vue',
         frutas: ['manzana','pera','platano'],
         frutas2:[
             {
