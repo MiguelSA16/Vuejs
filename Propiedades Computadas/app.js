@@ -14,6 +14,7 @@ const app = new Vue({
         },100)
     },*/
 
+    // computed : son datos conlogica que retornan algo.
     computed: {
         invertido: function(){
             return this.mensaje.split('').reverse().join('');
@@ -28,17 +29,4 @@ const app = new Vue({
         }
     },
 
-    methods: {
-        sumar: function(){
-            if(this.contador <= 100){
-                setInterval(() => {
-                    this.contador++;
-                },100);
-            }else{
-                this.contador--;
-            }
-            
-            
-        }
-    }
 });
